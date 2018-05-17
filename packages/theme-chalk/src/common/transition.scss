@@ -1,15 +1,6 @@
 @import "var";
 
-
-.el-no-transition-enter-active,
-.el-no-transition-leave-active 
-.el-no-transition-enter,
-.el-no-transition-leave,
-.el-no-transition-leave-active {
-  transition: none;
-}
-
-
+@import "transition-no-animation";
 
 
 .fade-in-linear-enter-active,

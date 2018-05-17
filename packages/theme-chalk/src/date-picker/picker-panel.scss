@@ -108,6 +108,7 @@
 .el-picker-panel *[slot=sidebar],
 .el-picker-panel__sidebar {
   //position: absolute;
+  position:relative;
   top: 0;
   bottom: 0;
   width: 110px;
@@ -123,3 +124,8 @@
 // .el-picker-panel__sidebar + .el-picker-panel__body {
 //   margin-left: 110px;
 // }
+
+.el-picker-panel *[slot=sidebar] + .el-picker-panel__body,
+.el-picker-panel__sidebar + .el-picker-panel__body {
+  margin-left: 0;
+}
